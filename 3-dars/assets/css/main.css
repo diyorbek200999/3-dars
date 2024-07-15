@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+
+    width: 1440px;
+    height: 4005px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    padding-top: 39px;
+}
+
+.header_logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+
+    padding-left: 1075px;
+}
+
+.item_text {
+    cursor: pointer;
+    width: 96px;
+    height: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    list-style-type: none;
+    transition: 1s;
+}
+.item_text:hover{
+    cursor: pointer;
+    color: cornflowerblue;
+    transition: 1s;
+}
+
+
+.imeges1 {
+    max-width: 1320px;
+    height: 806px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.h1 {
+    width: 96px;
+    height: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    padding-top: 120px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+
+.main_rasm {
+    width: 640px;
+    height: 427px;
+
+}
+
+.h2 {
+    width: 85px;
+    height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 15px;
+    padding-bottom: 48px;
+    
+}
+
+.guruh1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.text1 {
+    display: flex;
+}
+.log{   
+cursor: pointer;
+font-size: 17px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+}
+.pech1{
+    cursor: pointer;
+    padding-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+}
+.pech1:hover{
+    cursor: pointer;
+    color: darkolivegreen;
+}
+.left{
+    padding-left: 60px;
+}
+.logo_dwel{
+    margin-top: 220px;
+}
+.guruh2{
+    display: flex;
+    align-items: center;
+
+}
+.text2{
+    font-family:Arial, Helvetica, sans-serif;
+font-size: 17px;
+transition: .5s;
+}
+.text2:hover{
+    color: bisque;
+    cursor: pointer;
+    transition: .5s;
+}
+.item_time{
+    font-family: Arial;
+font-size: 17px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+    gap: 25px;
+    transition: .5s;
+  }
+  .item_time:hover{
+    cursor: pointer;
+    color: bisque;
+    transition: .5s;
+  }
+  .right{
+    gap: 184px;
+    padding-left: 532px;
+    display: flex;
+    align-items: center;
+    padding-top: 220px;
+  }
+  .item2{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  .item3{
+    list-style-type: none;
+  }
+  .item_time2{
+    font-family: Arial;
+font-size: 17px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+    gap: 25px;
+    cursor: pointer;
+    transition: .5s;
+    color: black;
+  }
+  .item_text2:hover{
+    cursor: pointer;
+    color: brown;
+    transition: .5s;
+  }
